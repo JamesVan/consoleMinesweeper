@@ -1,0 +1,28 @@
+{
+  "name": "consoleminesweeper",
+  "version": "1.0.0",
+  "description": "Testing with Babel for Minesweeper",
+  "main": "game.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesVan/consoleMinesweeper.git"
+  },
+  "keywords": [
+    "mineSweeper"
+  ],
+  "author": "JamesVan-Codecademy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesVan/consoleMinesweeper/issues"
+  },
+  "homepage": "https://github.com/JamesVan/consoleMinesweeper#readme"
+}
